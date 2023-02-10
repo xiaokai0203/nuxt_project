@@ -28,4 +28,5 @@ jobs:
 
       - name: start build # 下载依赖 打包项目
         run: |
+          cd nuxt_project
           npm start
